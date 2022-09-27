@@ -31,3 +31,4 @@ C:\Users\nalun\OneDrive\desktop\car-dealership\bin\Debug\net5.0\CarDealership.Vi
 C:\Users\nalun\OneDrive\desktop\car-dealership\bin\Debug\net5.0\CarDealership.Views.pdb
 C:\Users\nalun\OneDrive\desktop\car-dealership\obj\Debug\net5.0\CarDealership.Views.pdb
 C:\Users\nalun\OneDrive\desktop\car-dealership\obj\Debug\net5.0\CarDealership.csproj.CopyComplete
+C:\Users\nalun\OneDrive\Desktop\car-dealership\obj\Debug\net5.0\Razor\Views\Cars\AddCar.cshtml.g.cs

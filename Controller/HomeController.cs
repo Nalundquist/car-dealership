@@ -7,10 +7,6 @@ namespace Dealership.Controllers
 	public class HomeController : Controller
 	{
 		[HttpGet ("/")]
-		public ActionResult Index() 
-		{
-		List<Car> carsList = Car.GetCars();
-		return View(carsList); 
-		}
+		public ActionResult Index() { return View(); }
 	}
 }

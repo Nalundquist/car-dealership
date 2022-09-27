@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset='utf-8'>
+		<title>Welcome to Your Local Car Dealership, Mike's!</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>Motley Mike's Used Cars</h1>
+		<h4>Input details of the car being added to our inventory.</h4>
+		<form action="/cars" method="post">
+			<label for="year">Model Year</label>
+			<input id="year" name="year" type="number">
+			<label for="make">Model Make</label>
+			<input id="make" name="make" type="text">
+			<label for="price">Price</label>
+			<input id="price" name="price" type="number">
+			<label for="miles">Miles</label>
+			<input id="miles" name="miles" type="number">
+			<label for="weight">Weight</label>
+			<input id="weight" name="weight" type="number">
+			<label for="mpg">Miles per Gallon</label>
+			<input id="mpg" name="mpg" type="number">
+			<label for="lift">Lift Kit?</label>
+			<input id="lift" name="lift" type="checkbox">
+			<button type="submit">Submit</button>
+		</form>
+	</body>
+</html>
